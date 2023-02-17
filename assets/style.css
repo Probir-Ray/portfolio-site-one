@@ -54,6 +54,19 @@ header {
     font-weight: 300;
 }
 
+.hero-img img {
+    width: auto;
+    border-radius: 0;
+}
+
+.hero-img {
+    text-align: none;
+}
+
+.hero-content {
+    text-align: left;
+}
+
 .social ul {
     margin: 0;
     padding: 0;
@@ -135,6 +148,49 @@ header {
     display: inline-block;
 }
 
+#Container .mix{
+	display: none;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+.programs {
+	font-size: 0;
+    margin: 8px 0 0 0;
+	margin-bottom: 15px;
+    text-align: center;
+}
+
+.programs button {
+	outline: none;
+	margin-bottom: 0;
+	background: whitesmoke;
+	height: auto;
+	font-weight: normal;
+	border: 1px solid #ededed;
+	color: #000000;
+	font-size: 14px;
+	padding: 8px 15px;
+	text-shadow: 0px 0px 0px #2f6627;
+}
+
+.programs button:hover {
+	background: #99cfe0;
+}
+
+.programs button.active {
+	background: #3a9fbf;
+	color: white;
+}
+
+.mix-target {
+	display: none;
+}
+
+
 
 
 /* Testimonial Section */
@@ -145,7 +201,7 @@ header {
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 16px;
     margin: 35px 10px 10px;
-    max-width: 310px;
+    max-width: 90%;
     min-width: 250px;
     position: relative;
     text-align: center;
@@ -218,4 +274,25 @@ header {
     .header-img img {
         max-width: 50%;
     }
+    .snip1533 {
+        max-width: auto
+    }
+
+    .hero-img img {
+        width: 160px;
+        border-radius: 50%;
+    }
+
+    .hero-img {
+        text-align: center;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
 }
+
+@media screen and (max-width: 576px) { 
+    
+}
+
