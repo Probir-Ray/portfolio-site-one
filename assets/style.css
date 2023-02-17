@@ -88,6 +88,27 @@ header {
     padding-bottom: 80px;
 }
 
+.skill > p {
+    padding: 0 25%;
+    margin-bottom: 2.5em;
+}
+.skills-content {
+    margin-bottom: 2.5em;
+}
+.card {
+    background: linear-gradient(to right top, #6023ea, #069af3);
+    color: white;
+    height: auto;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.card h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
 
 /* Portfolio section style */
 .single-portfolio img, .single-portfolio img {
