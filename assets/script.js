@@ -20,3 +20,11 @@
         
     // AOS animation js
         AOS.init();
+
+    // Testimonial
+        $(".hover").mouseleave(
+            function() {
+            $(this).removeClass("hover");
+            }
+        );
+  
