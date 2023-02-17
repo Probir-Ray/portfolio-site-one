@@ -1,0 +1,144 @@
+/* Import poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap');
+
+*, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: all 0.3s linear;
+}
+
+a:link, a:hover, a:visited {
+    text-decoration: none;
+    color: #72b626;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-dark .navbar-nav a.nav-link {
+    font-size: 14px;
+}
+
+/* Hero section style */
+header {
+    min-height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh
+}
+
+.hero-content h1 {
+    color: #72b626;
+    font-weight: 700;
+}
+
+.hero-content h4 {
+    font-weight: 300;
+}
+
+.social ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.social li a:link {
+    text-decoration: none;
+    color: #72b626;
+    display: inline-block;
+    border: 1px solid #72b626;
+    padding: 8px 12px;
+}
+
+.social li a:hover {
+    background-color: #72b626;
+    color: #fff;
+}
+
+
+
+/* About section style */
+.about-section, .blog-area {
+    background-color: rgba(68, 162, 67, 0.07);
+}
+.about-section {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+
+/* Portfolio section style */
+.single-portfolio img, .single-portfolio img {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.single-portfolio {
+    transform: scale(0.90);
+    text-align: center;
+    box-shadow: 3px 3px 13px rgb(1 1 1 / 30%);
+    border-radius: 14px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.single-portfolio img:hover {
+    transform: scale(1.1);
+}
+
+.tag li {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin: 5px 2px;
+}
+
+.tag li:hover {
+    background-color:#72b626;
+    cursor: pointer;
+    color: #fff;
+}
+
+.link li {
+    display: inline-block;
+}
+
+
+
+
+
+/* Responsive design style */
+@media screen and (max-width: 768px) { 
+    .header-content {
+        text-align: center;
+    }
+    .header-img, .about-img {
+        text-align: center;
+    }
+    .header-img img {
+        max-width: 50%;
+    }
+}
